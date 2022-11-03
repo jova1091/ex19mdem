@@ -1,0 +1,29 @@
+{
+  "short_name": "Balanza",
+  "name": "Interactivo Balanza",
+  "description": "Actividad para el MOOC de Democracia.",
+  "maintainer": {
+    "name": "Oscar Pérez Sabogal",
+    "email": "o.perez@uniandes.edu.co"
+  },
+  "version": "0.0.1",
+  "sandbox": "allow-presentation allow-scripts allow-same-origin allow-popups",
+  "configurationExamples": [{
+    "configuration": {
+      "gridSize": 5,
+      "timer": 15
+    },
+    "name": "My Config",
+    "description": "Simple config."
+  }],
+  "authorizations": {},
+  "actionTypes": ["GET_SESSION_CONFIGURATION", "SET_HEIGHT"],
+  "macros": [],
+  "accessibility": {
+    "mobileCompatibility": {
+      "supportsTouch": true,
+      "minHeightPx": 0,
+      "minWidthPx": 0
+    }
+  }
+}

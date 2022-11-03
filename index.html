@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX19MDEM</title>
+    <link rel="stylesheet" href="Assets/css/master.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <script src="https://unpkg.com/interactjs/dist/interact.min.js"></script>
+    <script src="https://www.coursera.org/widget/coursera-widget-connect-v0.js"></script>
+</head>
+<body>
+    <main id="exercise">
+        <div id="container">
+            <div id="left">
+                <div id="instructions">
+                    <h1>Instrucciones</h1>
+                    <p>A continuación encontrarás una serie de funciones estatales.</p>
+                    <p>Deberás deslizarlas hacia cada una de las ramas del poder público.</p>
+                    <p>Ten en cuenta que en una democracia es clave encontrar un equilibrio entre las distintas ramas del poder público y para ello son claves los frenos y contrapesos entre las mismas.</p>
+                    <p class="warning"><strong>Atención: el triángulo siempre deberá estar en equilibrio</strong></p>
+                </div>
+                <div id="dropzone">
+                    <div id="leg" class="dropzone animate__animated">
+                        <img src="Assets/img/icon_leg.png" alt="">
+                        Rama Legislativa
+                    </div>    
+                    <div id="jud" class="dropzone animate__animated">
+                        <img src="Assets/img/icon_jud.png" alt="">
+                        Rama Judicial
+                    </div>    
+                    <div id="eje" class="dropzone animate__animated">
+                        <img src="Assets/img/icon_eje.png" alt="">
+                        Rama Ejecutiva
+                    </div> 
+                </div>
+            </div>
+            <div id="image">
+                <div id="triangule"  class="animate__animated"></div>
+            </div>
+        </div>
+        <hr>
+        <h2 id="functions">Funciones estatales</h2>
+        <div id="options"></div>
+        <button id="btnModalExit"></button>
+        <button id="btnModalCongrats"></button>
+        <div id="modalExit" class="modal">
+            <div class="modal-contenido animate__animated">
+                <h1>Intentos máximos permitidos</h1>
+                <p>¡Oops! Ha superado el limite de errores en el desarrollo de este ejercicio, sugerimos regresar al siguiente <a href="https://www.coursera.org/learn/derechos-humanos-democracia-america-latina/lecture/vlZPb/separacion-de-poderes" target="_blank">Video</a>.</p>
+                <button class="restart">Reiniciar</button>
+            </div>
+        </div>
+        <div id="modalCongrats" class="modal">
+            <div class="modal-contenido animate__animated">
+                <h1>¡Felicitaciones!</h1>
+                <p>Has alcanzado los objetivos de esta actividad.</p>
+                <button class="restart">Reiniciar</button>
+            </div>
+        </div>
+    </main>
+    <script src="Assets/js/jQuery.js"></script>
+    <script src="Assets/js/master.js"></script>
+</body>
+</html>
